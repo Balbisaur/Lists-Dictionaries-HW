@@ -14,7 +14,7 @@ array2 = np.array(list2)
 sorted_array = np.concatenate((array1, array2)).tolist()
 
 print(sorted_array)
- # this is my first attempt to merge two lists, but it works when the number of lists are in order. besides that if it was pre-sorted,
+ # this is my first attempt to merge two lists, it works when the number of lists are in order. besides that if it was pre-sorted,
  # it would just add the second list to the end of the first list.
 
 # Time Complexity: O(n) because we are iterating over each element in both lists.
