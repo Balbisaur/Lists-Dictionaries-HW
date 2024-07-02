@@ -26,5 +26,5 @@ print(intersection_dict)
 
 # Time complexity: O(n), where n is the total number of key-value pairs in both dictionaries. 
 # The function iterates over the keys in dict_1 once and performs a dictionary lookup in dict_2, resulting in a constant time complexity for each key-value pair. 
-# The overall time complexity is therefore O(n).
+# The overall time complexity is O(n).
     
