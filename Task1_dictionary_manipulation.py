@@ -13,7 +13,7 @@ dict_2 = {
 'cobbler': 'peach'
 }
 
-merged_dict = {**dict_1, **dict_2} # unpacking the key/value pairs and merging them into one dictionary
+merged_dict = {**dict_1, **dict_2} # unpacking the key/value pairs and merging them into one dictionary, while keeping the values of the second dict.
 
 print(merged_dict)
 
